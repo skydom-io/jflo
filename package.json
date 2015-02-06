@@ -18,7 +18,6 @@
   "homepage": "https://github.com/skydom-io/jflo",
   "dependencies": {
     "load-plugins": "^1.0.1",
-    "yargs": "^1.3.3",
-    "jflo-elasticsearch": "1.0.0"
+    "yargs": "^1.3.3"
   }
 }
