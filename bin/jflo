@@ -1,6 +1,21 @@
 #!/usr/bin/env node
-
 'use strict'
 
-process.title = 'jflo';
-require('../lib/runner')();
+var domain      = require('domain');
+var jflo        = module.exports
+                = require('../lib/jflo');
+
+if (!module.parent) {
+    domain.create()
+        .on('error', function (err) {
+            console.error("" + err);
+            setTimeout(process.exit);
+        })
+        .run(function () {
+            process.title = 'jflo';
+            require('../lib/runner')(jflo);
+        });
+}
+else {
+    // Load and initialize jflo plugins
+}
