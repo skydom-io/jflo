@@ -13,9 +13,10 @@ if (!module.parent) {
         })
         .run(function () {
             process.title = 'jflo';
-            require('../lib/runner')(jflo);
+            require('../lib/runner').run(jflo);
         });
 }
 else {
-    // Load and initialize jflo plugins
+    require('../lib/runner').initialize(jflo);
+    module.exports = jflo;
 }
