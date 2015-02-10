@@ -1,5 +1,5 @@
 {
-  "name": "mtarkiai/jflo",
+  "name": "jflo",
   "version": "0.0.3",
   "description": "Stream processing framework for JSON documents",
   "main": "bin/jflo",
