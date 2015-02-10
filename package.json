@@ -1,6 +1,6 @@
 {
   "name": "jflo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stream processing framework for JSON documents",
   "main": "bin/jflo",
   "scripts": {
