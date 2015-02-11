@@ -1,6 +1,6 @@
 {
   "name": "jflo",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Stream processing framework for JSON documents",
   "main": "bin/jflo",
   "scripts": {
@@ -21,6 +21,8 @@
     "event-stream": "^3.2.2",
     "json-scrape": "0.0.2",
     "load-plugins": "^1.0.1",
+    "merge": "^1.2.0",
+    "minimatch": "^2.0.1",
     "split": "^0.3.3",
     "stdout-stream": "^1.3.0",
     "uuid": "^2.0.1",
