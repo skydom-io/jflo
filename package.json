@@ -1,0 +1,34 @@
+{
+  "name": "jflo",
+  "version": "0.5.1",
+  "description": "Stream processing framework for JSON documents",
+  "main": "bin/jflo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/skydom-io/jflo"
+  },
+  "author": "M. Tarkiainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skydom-io/jflo/issues"
+  },
+  "homepage": "https://github.com/skydom-io/jflo",
+  "dependencies": {
+    "base58": "^0.1.0",
+    "deepcopy": "^0.4.0",
+    "duplexer": "^0.1.1",
+    "event-stream": "^3.2.2",
+    "flat": "^1.5.0",
+    "json-scrape": "0.0.2",
+    "load-plugins": "^1.0.1",
+    "merge": "^1.2.0",
+    "minimatch": "^2.0.1",
+    "split": "^0.3.3",
+    "stdout-stream": "^1.3.0",
+    "uuid": "^2.0.1",
+    "yargs": "^1.3.3"
+  }
+}
