@@ -1,8 +1,11 @@
 {
   "name": "jflo",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Stream processing framework for JSON documents",
-  "main": "bin/jflo",
+  "main": "./bin/jflo.js",
+  "bin": {
+    "jflo": "./bin/jflo.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
