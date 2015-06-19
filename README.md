@@ -13,25 +13,38 @@ jflo --help
 
 ### Invocation
 
-### Standard streams
+### I/O streams
 
-#### stdin
+- Standard streams
+    - `stdin`
+    - `stdout`
+    - `stderr`
+- Auxiliary payload streams
+    - `in.{name}`
+    - `out.{name}`
+    - `inout.{name}` (Duplex)
+- Instrumentation streams
+    - `logger`
+    - `metrics`
+    - `control`
 
-#### stdout
-
-#### stderr
-
-### Auxiliary payload streams
-
-### Logging, Metrics and Control streams
+#### Stream redirection
+- From a file or pipe
+- From a TCP socket
+- To a file or pipe
+- To a TCP socket
+- Duplex binding
 
 ## Usage as a node.js library
 
-## Filters
+## Configuration
 
-## Parsers
+### jflofile.js
 
-## Formatters
+### Filters
 
-## Configuration (jflofile.js)
+### Parsers
 
+### Formatters
+
+## Writing plugins
