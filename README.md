@@ -35,16 +35,22 @@ jflo --help
 - To a TCP socket
 - Duplex binding
 
+### Plug-in installation
+`npm install {jflo-plugin-name}`
+`jflo {plugin-name} --help` 
+
 ## Usage as a node.js library
 
 ## Configuration
 
 ### jflofile.js
 
+#### Default values
+
+## Writing plugins
+
 ### Filters
 
 ### Parsers
 
 ### Formatters
-
-## Writing plugins
