@@ -6,6 +6,9 @@ Extensible JSON stream processing framework with CLI and Node.js interfaces
 
 ```
 npm install -g skydom-io/jflo
+cd {test_folder}
+# git clone https://skydom-io/jflo-samples
+cd jflo-samples
 jflo --help
 ```
 
@@ -29,10 +32,8 @@ jflo --help
     - `control`
 
 #### Stream redirection
-- From a file or pipe
-- From a TCP socket
-- To a file or pipe
-- To a TCP socket
+- From or to a file or pipe
+- From or to a TCP socket
 - Duplex binding
 
 ### Plug-in installation
