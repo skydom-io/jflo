@@ -15,9 +15,17 @@ jflo --help
 
 ### Standard streams
 
+#### stdin
+
+#### stdout
+
+#### stderr
+
 ### Auxiliary payload streams
 
 ### Logging, Metrics and Control streams
+
+## Usage as a node.js library
 
 ## Filters
 
