@@ -1,6 +1,6 @@
 # JFlo
 
-Extensible JSON stream processing framework with CLI and Node.js interfaces
+Extensible document stream processing framework with CLI and Node.js interfaces
 
 ## Quick start
 
@@ -21,7 +21,13 @@ jflo --help
 - Standard streams
     - `stdin`
     - `stdout`
+    
+    `stdout` is JFlo's logical name for the payload output - and it's sent to system stdout by default.
+    *Nothing* besides payload output is sent to system stdout, so that piping JFlo (and other ETL) processes together
+    can always take place without having to worry about interference from error, logging or instrumentation data.
+    
     - `stderr`
+        
 - Auxiliary payload streams
     - `in.{name}`
     - `out.{name}`
