@@ -1,6 +1,6 @@
 {
   "name": "jflo",
-  "version": "0.5.8",
+  "version": "0.5.9",
   "description": "Stream processing framework for JSON documents",
   "main": "./bin/jflo.js",
   "bin": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/skydom-io/jflo",
   "dependencies": {
-    "base58": "^0.1.0",
+    "base62": "^1.1.0",
     "deepcopy": "^0.4.0",
     "duplexer": "^0.1.1",
     "event-stream": "^3.2.2",
