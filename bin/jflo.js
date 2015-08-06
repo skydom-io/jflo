@@ -18,6 +18,9 @@ if (!module.parent) {
         });
 }
 else {
+    var jfloRuntime = require('../lib/runner');
+    jfloRuntime.initialize(jflo);
     require('../lib/runner').initialize(jflo);
+    jflo.run = jfloRuntime.run.bind(null, jflo);
     module.exports = jflo;
 }
