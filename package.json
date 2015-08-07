@@ -1,6 +1,6 @@
 {
   "name": "jflo",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "description": "Stream processing framework for JSON documents",
   "main": "./bin/jflo.js",
   "bin": {
@@ -26,6 +26,7 @@
     "event-stream": "^3.2.2",
     "flat": "^1.5.0",
     "globby": "^2.1.0",
+    "js-yaml": "^3.3.1",
     "json-scrape": "0.0.2",
     "merge": "^1.2.0",
     "minimatch": "^2.0.1",
